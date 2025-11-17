@@ -1,3 +1,6 @@
+# https://github.com/sanjaymohan207-star/lab11-SM-JE
+# Partner 1: Sanjay Mohan
+# Partner 2: Jessalyn Escobar
 import unittest
 from calculator import *
 
