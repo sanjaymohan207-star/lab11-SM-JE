@@ -19,13 +19,13 @@ class TestCalculator(unittest.TestCase):
     def test_multiply(self) -> None:
         self.assertEqual(multiply(3, 4), 12)
         self.assertEqual(multiply(-2, 5), -10)
-        self.assertEqual(multiply(0, 7), 0)
+        self.assertEqual(multiply(4, 7), 28)
 
     def test_divide(self) -> None:
         self.assertEqual(divide(10, 2), 5)
         self.assertEqual(divide(-9, 3), -3)
-        with self.assertRaises(ZeroDivisionError):
-            divide(5, 0)
+        self.assertEqual(divide(3, 1), 3)
+
 
     ######## Partner 2
     def test_divide_by_zero(self) -> None:
