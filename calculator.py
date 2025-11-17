@@ -8,6 +8,13 @@ One function per operation, in order.
 
 
 import math
+def square_root(a):
+    if a < 0:
+        raise ValueError("input must be positive")
+    return math.sqrt(a)
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
 def add(a, b):
     return a + b
 
