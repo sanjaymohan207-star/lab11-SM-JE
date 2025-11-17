@@ -27,8 +27,7 @@ def mul(a: float, b: float) -> float:
     return a * b
 
 
-def multiply(a: float, b: float) -> float:
-    return mul(a, b)
+
 
 
 def div(a: float, b: float) -> float:
@@ -37,10 +36,7 @@ def div(a: float, b: float) -> float:
     return b / a
 
 
-def divide(a: float, b: float) -> float:
-    if b == 0:
-        raise ZeroDivisionError("division by zero")
-    return a / b
+
 
 
 def log(a: float, b: float) -> float:
